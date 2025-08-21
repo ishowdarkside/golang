@@ -42,7 +42,7 @@ func main() {
 		fmt.Println("ERROR:")
 		fmt.Println(err)
 		fmt.Print("------------------------------------")
-		return
+		panic("Cannot continue, sorry.")
 	}
 
 	fmt.Println("Welcome to Go Bank!")
